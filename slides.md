@@ -13,6 +13,10 @@ drawings:
 transition: slide-left
 title: "Cours 6 — DevSecOps : Attaques & Contre-mesures"
 mdc: true
+pdf: true
+export: true
+comark: true
+download: true
 ---
 
 # Vers le DevSecOps  
