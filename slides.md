@@ -738,41 +738,19 @@ layout: default
 
 # Merci
 
-<div class="text-2xl text-black mt-2 text-center">Questions ?</div>
+<div class="mt-8 max-w-2xl mx-auto text-left">
 
-<div class="mt-6 mb-4 text-xs uppercase tracking-widest text-black/60 text-center">Ressources pour aller plus loin</div>
+**Ressources :**
 
-<div class="grid grid-cols-2 gap-4">
-<a href="https://owasp.org/www-project-top-10-ci-cd-security-risks/" target="_blank" class="border border-blue-400/60 rounded-xl p-4 bg-blue-100/70 hover:bg-blue-200/70 flex items-center gap-3">
-  <span class="text-2xl">🔐</span>
-  <span class="text-left leading-tight"><span class="block font-semibold text-black">OWASP Top 10 CI/CD</span><span class="block text-xs text-gray-700">owasp.org</span></span>
-</a>
-<a href="https://slsa.dev/" target="_blank" class="border border-cyan-400/60 rounded-xl p-4 bg-cyan-100/70 hover:bg-cyan-200/70 flex items-center gap-3">
-  <span class="text-2xl">📦</span>
-  <span class="text-left leading-tight"><span class="block font-semibold text-black">SLSA Framework</span><span class="block text-xs text-gray-700">slsa.dev</span></span>
-</a>
-<a href="https://cyclonedx.org/" target="_blank" class="border border-emerald-400/60 rounded-xl p-4 bg-emerald-100/70 hover:bg-emerald-200/70 flex items-center gap-3">
-  <span class="text-2xl">🧾</span>
-  <span class="text-left leading-tight"><span class="block font-semibold text-black">CycloneDX</span><span class="block text-xs text-gray-700">cyclonedx.org</span></span>
-</a>
-<a href="https://sap.github.io/risk-explorer-for-software-supply-chains/" target="_blank" class="border border-amber-400/60 rounded-xl p-4 bg-amber-100/70 hover:bg-amber-200/70 flex items-center gap-3">
-  <span class="text-2xl">🗺️</span>
-  <span class="text-left leading-tight"><span class="block font-semibold text-black">SAP Risk Explorer</span><span class="block text-xs text-gray-700">sap.github.io</span></span>
-</a>
-<a href="https://bandit.readthedocs.io/" target="_blank" class="border border-violet-400/60 rounded-xl p-4 bg-violet-100/70 hover:bg-violet-200/70 flex items-center gap-3">
-  <span class="text-2xl">🐍</span>
-  <span class="text-left leading-tight"><span class="block font-semibold text-black">Bandit — Python SAST</span><span class="block text-xs text-gray-700">bandit.readthedocs.io</span></span>
-</a>
-<a href="https://gitleaks.io/" target="_blank" class="border border-rose-400/60 rounded-xl p-4 bg-rose-100/70 hover:bg-rose-200/70 flex items-center gap-3">
-  <span class="text-2xl">🔍</span>
-  <span class="text-left leading-tight"><span class="block font-semibold text-black">Gitleaks</span><span class="block text-xs text-gray-700">gitleaks.io</span></span>
-</a>
-<a href="https://www.cisa.gov/sites/default/files/2023-09/CISA-Open-Source-Software-Security-Roadmap-508c.pdf" target="_blank" class="col-span-2 border border-slate-400/60 rounded-xl p-4 bg-slate-200/70 hover:bg-slate-300/70 flex items-center gap-3">
-  <span class="text-2xl">🏛️</span>
-  <span class="text-left leading-tight"><span class="block font-semibold text-black">CISA Open Source Software Security Roadmap</span><span class="block text-xs text-gray-700">cisa.gov · PDF</span></span>
-</a>
+- 📄 **Poly du cours** : [télécharger le poly (PDF)](https://raw.githubusercontent.com/barais/devsecops.module6/refs/heads/master/poly/poly.pdf)
+* [OWASP Top 10 CI/CD Security Risks](https://owasp.org/www-project-top-10-ci-cd-security-risks/)
+* [SLSA Framework](https://slsa.dev/)
+* [CycloneDX](https://cyclonedx.org/)
+* [Bandit — Python SAST](https://bandit.readthedocs.io/)
+- ➡️ **Cours suivant — Cours 7 — Open Source Supply Chain Attacks** : [https://olivier.barais.fr/devsecops.module7](https://olivier.barais.fr/devsecops.module7)
+
 </div>
 
-<style scoped>
-h1 { color: #000; }
-</style>
+<div class="mt-8 text-sm opacity-50">
+Olivier Barais · Module DevSecOps
+</div>
