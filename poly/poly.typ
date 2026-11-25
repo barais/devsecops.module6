@@ -236,7 +236,7 @@ L'ENISA a identifié les attaques sur la _supply chain_ logicielle comme l'une d
 
 == Vecteurs d'attaque
 
-Ohm et al. ont proposé une taxonomie des attaques sur la supply chain logicielle @ohm2020backstabber, distinguant notamment :
+Ohm et al. ont proposé une taxonomie des attaques sur la supply chain logicielle @ohm2020backstabber, et la _Risk Explorer for Software Supply Chains_ de SAP a opérationnalisé ces vecteurs sous la forme du catalogue A1–A8 @sap2023riskexplorer :
 
 #block(
   fill: rgb("#f8fafc"),
@@ -613,7 +613,7 @@ Le SBOM répond à plusieurs besoins opérationnels : réponse rapide aux incide
 
 == SLSA — Supply chain Levels for Software Artifacts
 
-SLSA (prononcé « salsa ») est un cadre de niveaux de maturité de la sécurité de la supply chain, co-développé par Google et l'OpenSSF @slsa2023. Il définit quatre niveaux d'exigences progressives :
+SLSA (prononcé « salsa ») est un cadre de niveaux de maturité de la sécurité de la supply chain, co-développé par Google et l'OpenSSF @slsa2023. Sur le _build track_, il définit trois niveaux d'exigences progressives (L1 à L3), précédés du niveau L0 qui représente l'absence de garantie :
 
 #block(
   fill: rgb("#f8fafc"),
@@ -628,8 +628,8 @@ SLSA (prononcé « salsa ») est un cadre de niveaux de maturité de la sécurit
     fill: (_, row) => if calc.odd(row) { luma(248) } else { white },
     inset: 7pt,
     [*Niveau*], [*Nom*], [*Exigences principales*],
-    [L0], [—], [Aucune garantie],
-    [L1], [Provenance documentée], [Build script verscionné, provenance générée automatiquement],
+    [L0], [Aucune garantie], [Aucune exigence — niveau zéro du track build],
+    [L1], [Provenance documentée], [Build script versionné, provenance générée automatiquement],
     [L2], [Provenance hébergée], [Build sur service CI, provenance signée cryptographiquement],
     [L3], [Build durci], [Build sur infrastructure isolée et vérifiée, provenance non falsifiable],
   )

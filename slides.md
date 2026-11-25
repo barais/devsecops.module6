@@ -666,8 +666,7 @@ Cadre de niveaux de maturité de la sécurité supply chain (Google/OpenSSF)
 | **L0** | Aucune garantie |
 | **L1** | Provenance documentée (build script, dépendances) |
 | **L2** | Provenance signée (clé cryptographique) |
-| **L3** | Build reproducible sur infrastructure vérifiée |
-| **L4** | Build reproductible + revue de code multi-parties |
+| **L3** | Build durci sur infrastructure vérifiée |
 
 **En pratique — SLSA L2 avec GitHub Actions :**
 ```yaml
